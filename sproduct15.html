@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Product Details</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<style>
+	.small-img-group {
+		display: flex;
+		justify-content: space-between;
+	}
+	.small-img-col {
+		flex-basis: 24%;
+		cursor: pointer;
+	}
+	.sproduct select {
+		display: block;
+		padding: 5px 10px;
+	}
+	.sproduct input {
+		width: 50px;
+		height: 40px;
+		padding-left: 10px;
+		font-size: 16px;
+		margin-right: 10px;
+	}
+	.sproduct input:focus {
+		outline: none;
+	}
+	.buy-btn {
+		background: #dc3545;
+		opacity: 1;
+		transition: 0.3s all;
+	}
+</style>
+
+	</head>
+
+	<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+  <div class="container">
+    <img src="logo1.jpg" height = "95" width="95" style=" border-radius:60%;" alt="">
+	<span style = "color:#dc3545; font-style:italic; font-weight: 900; font-size: 40px; vertical-align: left;">YUMEKO</span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i id="bar" class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="YUMEKO.html">Home</a>
+        </li>
+       <li class="nav-item">
+         <a class="nav-link active" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <i onclick= "window.location.href='search.html';"class="fal fa-search"></i>
+          <i onclick= "window.location.href='cart.html';"class="fal fa-shopping-bag"></i>
+        </li>
+
+    </div>
+  </div>
+</nav>
+
+<section class="container sproduct my-5 pt-5">
+	<div class="row mt-5">
+<div class="col-lg-5
+		 col-md-12 col-12">
+	<img class="img-fluid w-100 pb-1" src="bag2.jpg" id="MainImg">
+	<div class="small-img-group">
+		<div class="small-img-col">
+<img src="bag2.jpg" width="100%" class="small-img">	
+		</div>
+		<div class="small-img-col">
+<img src="bag1.jpg" width="100%" class="small-img">	
+		</div>
+		<div class="small-img-col">
+<img src="bag3.jpg" width="100%" class="small-img">	
+		</div>
+		<div class="small-img-col">
+<img src="bag5.jpg" width="100%" class="small-img">	
+		</div>
+	 </div>
+</div>
+		<div class="col-lg-6
+		 col-md-12 col-12">
+		 <h6>Cosplay / Bags</h6>
+		 <h3 class="py-4">Kakegurui Bags </h3>
+		 <h2>₱500.00</h2>
+		 <select class="my-3">
+		 <option>Select Size</option>
+		 <option>Small</option>
+		 <option>Large</option>
+		 <option>XL</option>
+		 <option>XXL</option>	
+		 </select>
+	<input type="number" value="1">
+<button onclick= "window.location.href='cart.html';"class="buy-btn">Add To Cart</button>
+<h4 class="mt-5 mb-5">Product Details</h4>
+<span>Great Bags for a Great PRICE! Very Spacious! and Affordable. </span>
+		 </div>
+	</div>
+</section>
+
+<section id="featured" class="my-5 pb-5">
+    	<div class="container text-center mt-5 py-5">
+        <h3>Related Products</h3>
+        <hr class="mx-auto">
+      </div>
+      <div class="row mx-auto container-fluid">  
+<div onclick= "window.location.href='sproduct13.html';"class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="merch4.jpg" alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+          <h5 class="p-name">Kakegurui Badges (9 pcs)</h5>
+          <h4 class="p-price">₱100.00</h4>
+          <button href= "sproduct13.html"class="buy-btn"class="buy-btn">Buy Now</button>
+      </div>
+<div onclick= "window.location.href='sproduct14.html';"class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="bag1.jpg" alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Runa Yomozuki Backpack</h5>
+          <h4 class="p-price">₱500.00</h4>
+          <button href= "sproduct14.html"class="buy-btn"class="buy-btn">Buy Now</button>
+        </div>
+<div onclick= "window.location.href='sproduct15.html';"class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="bag2.jpg" alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Yumeko Jabami Backpack</h5>
+          <h4 class="p-price">₱500.00</h4>
+          <button href= "sproduct15.html"class="buy-btn"class="buy-btn">Buy Now</button>
+        </div>
+<div onclick= "window.location.href='sproduct16.html';"class="product text-center col-lg-3 col-md-4 col-12">
+          <img class="img-fluid mb-3" src="bag3.jpg" alt="">
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Yumeko Jabami Backpack (White)</h5>
+          <h4 class="p-price">₱500.00</h4>
+          <button href= "sproduct16.html"class="buy-btn"class="buy-btn">Buy Now</button>
+        </div>
+    </section>
+    </div>
+
+<footer class="mt-5 py-5">
+      <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+    <img src="logo1.jpg" height = "50" width="50" style=" border-radius:60%;" alt="">
+  <span style = "color:#dc3545; font-style:italic; font-weight: 900; font-size: 20px; vertical-align: left;">YUMEKO</span>
+  <p class="pt-3">YUMEKO started as a small business and gradually climb to popularity because of it's great products and great customer service.</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Featured</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="shop.html">men</a></li>
+            <li><a href="shop.html">women</a></li>
+            <li><a href="shop.html">boys</a></li>
+            <li><a href="shop.html">girls</a></li>
+            <li><a href="shop.html">new arrivals</a></li>
+            <li><a href="shop.html">shoes</a></li>
+            <li><a href="shop.html">clothes</a></li>
+          </ul>
+           </div>
+      <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Contact Us</h5>
+       <div>
+       <h6 class="text-uppercase">address</h6>
+       <p>130 BGC MAKATI CITY, PH</p>
+       </div>
+       <div>
+       <h6 class="text-uppercase">Phone</h6>
+       <p>09304567808</p>
+       </div>
+       <div>
+       <h6 class="text-uppercase">email</h6>
+       <p>YumekoShop@email.com</p>
+       </div>
+        </div>
+
+         <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pb-2">Instagram</h5>
+          <div class="row">
+    <img class="img-fluid w-25 h-100 m-2
+    " src="instagram1.jpg" style="filter: grayscale(100%);">
+    <img class="img-fluid w-25 h-100 m-2
+    " src="instagram2.jpg" style="filter: grayscale(100%);">
+    <img class="img-fluid w-25 h-100 m-2
+    " src="instagram3.jpg" style="filter: grayscale(100%);">
+    <img class="img-fluid w-25 h-100 m-2
+    " src="instagram4.jpg" style="filter: grayscale(100%);">
+    <img class="img-fluid w-25 h-100 m-2
+    " src="instagram5.jpg" style="filter: grayscale(100%);">
+          </div>
+        </div>
+       </div>
+       <div class="copyright mt-5">
+         <div class="row container mx-auto">
+          <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="payment.png">
+        </div>
+<div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+            <p>YUMEKO ecommerce ® 2021. All Rights Reserved</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/?logout=1639135505394"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+          </div>  
+        </div>
+    </footer>
+   
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+<script>
+	var MainImg = document.getElementById('MainImg');
+	var smallimg = document.getElementsByClassName('small-img');
+
+	smallimg[0].onclick = function() {
+		MainImg.src = smallimg[0].src;
+	}
+	smallimg[1].onclick = function() {
+		MainImg.src = smallimg[1].src;
+	}
+	smallimg[2].onclick = function() {
+		MainImg.src = smallimg[2].src;
+	}
+	smallimg[3].onclick = function() {
+		MainImg.src = smallimg[3].src;
+	}
+</script>
+
+	</body>
+</html>
